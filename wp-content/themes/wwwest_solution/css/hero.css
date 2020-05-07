@@ -1,0 +1,107 @@
+.carousel .carousel-indicators {
+  margin-bottom: 70px; }
+  .carousel .carousel-indicators li {
+    margin: 0 15px;
+    width: 25%;
+    text-indent: inherit;
+    border-left: 70px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.5); }
+    .carousel .carousel-indicators li .indicator-desc {
+      position: absolute;
+      top: 0;
+      left: -70px;
+      padding-top: 28px;
+      font-size: 18px;
+      font-family: "Montserrat";
+      color: rgba(255, 255, 255, 0.702);
+      text-transform: uppercase;
+      line-height: 1.2; }
+      .carousel .carousel-indicators li .indicator-desc span {
+        font-size: 24px;
+        font-weight: bold; }
+  .carousel .carousel-indicators li:first-child {
+    margin-left: 0; }
+  .carousel .carousel-indicators li:last-child {
+    margin-right: 0; }
+  .carousel .carousel-indicators li.active {
+    border-left: 70px solid #f38181;
+    background: white; }
+    .carousel .carousel-indicators li.active .indicator-desc {
+      left: -70px;
+      color: white; }
+.carousel .carousel-inner .carousel-item .carousel-caption .top-txt {
+  font-size: 72px;
+  font-family: 'Kaushan Script';
+  color: #fff;
+  padding-bottom: 16px; }
+.carousel .carousel-inner .carousel-item .carousel-caption .bottom-txt {
+  line-height: 0.933;
+  font-size: 150px;
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 100px 73px; }
+.carousel .carousel-inner .carousel-item .carousel-caption .white-line {
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  float: none;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px; }
+.carousel .carousel-inner .carousel-item .carousel-caption .btn-slider {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #fff;
+  background: none;
+  border: 3px solid #fff;
+  padding: 12px 30px;
+  border-radius: 0;
+  margin-bottom: 157px; }
+
+@media (max-width: 1500px) {
+  .carousel .carousel-inner .carousel-item .carousel-caption .top-txt {
+    font-size: 48px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .bottom-txt {
+    font-size: 116px; } }
+@media (max-width: 1320px) {
+  .carousel .carousel-inner .carousel-item .carousel-caption .btn-slider {
+    margin-bottom: 100px; } }
+@media (max-width: 1220px) {
+  .carousel .carousel-inner .carousel-item .carousel-caption .btn-slider {
+    margin-bottom: 60px; } }
+@media (max-width: 1024px) {
+  .carousel .carousel-inner .carousel-item .carousel-caption .top-txt {
+    font-size: 38px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .bottom-txt {
+    font-size: 78px;
+    padding-bottom: 50px; } }
+@media (max-width: 768px) {
+  .carousel .carousel-indicators {
+    margin-bottom: 40px; }
+    .carousel .carousel-indicators li .indicator-desc {
+      padding-top: 18px;
+      font-size: 14px; }
+      .carousel .carousel-indicators li .indicator-desc span {
+        font-size: 18px; }
+    .carousel .carousel-indicators li.active {
+      border-left: 30px solid #f38181; }
+      .carousel .carousel-indicators li.active .indicator-desc {
+        left: -30px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .top-txt {
+    font-size: 34px;
+    padding-bottom: 6px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .bottom-txt {
+    font-size: 76px;
+    padding: 0 0 25px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .white-line {
+    margin-bottom: 25px; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .btn-slider {
+    font-size: 12px;
+    padding: 6px 15px;
+    margin-bottom: 30px; } }

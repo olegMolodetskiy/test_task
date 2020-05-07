@@ -1,0 +1,90 @@
+.latest-blog {
+  padding-bottom: 115px; }
+  .latest-blog .title-block {
+    padding-top: 110px;
+    width: 100%;
+    text-align: center; }
+    .latest-blog .title-block .top-txt {
+      font-size: 24px;
+      font-family: 'Kaushan Script';
+      color: #333333;
+      line-height: 1.2; }
+    .latest-blog .title-block .latest-title {
+      font-size: 30px;
+      font-family: 'Montserrat';
+      color: #333333;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin: 14px 0 35px; }
+    .latest-blog .title-block .red-line {
+      width: 60px;
+      height: 3px;
+      background: #f38181;
+      float: none;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 47px; }
+  .latest-blog article a:hover {
+    text-decoration: none; }
+  .latest-blog article .desc-block {
+    position: relative; }
+    .latest-blog article .desc-block .date-block {
+      position: absolute;
+      top: -80px;
+      left: -10px;
+      width: 60px;
+      height: 70px;
+      background: #95e1d3;
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-size: 15px;
+      text-align: center;
+      padding-top: 12px;
+      color: #fff; }
+      .latest-blog article .desc-block .date-block .day {
+        width: 100%;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 100%;
+        display: block; }
+    .latest-blog article .desc-block .title {
+      margin: 17px 0 12px;
+      font-size: 14px;
+      font-family: 'Montserrat';
+      color: #333333;
+      text-transform: uppercase;
+      line-height: 1.2; }
+    .latest-blog article .desc-block .post-exc {
+      font-size: 15px;
+      font-family: "Roboto";
+      color: #999999;
+      line-height: 1.6;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 16px; }
+  .latest-blog article .counts-block {
+    display: flex;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #999999;
+    font-style: italic;
+    line-height: 1.6; }
+    .latest-blog article .counts-block .views {
+      margin-right: 11px; }
+    .latest-blog article .counts-block img {
+      margin-top: -3px; }
+  .latest-blog .read-more-block {
+    width: 100%;
+    text-align: center;
+    padding-top: 47px; }
+    .latest-blog .read-more-block a {
+      font-size: 14px;
+      font-family: 'Montserrat';
+      color: #333333;
+      text-transform: uppercase;
+      font-weight: bold; }
+
+@media (max-width: 1024px) {
+  .latest-blog article .desc-block .post-exc {
+    font-size: 12px; } }

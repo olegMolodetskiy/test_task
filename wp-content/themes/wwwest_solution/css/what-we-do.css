@@ -1,0 +1,83 @@
+.what-we-do {
+  padding-bottom: 115px; }
+  .what-we-do .title-block {
+    width: 100%;
+    text-align: center; }
+    .what-we-do .title-block .top-txt {
+      font-size: 24px;
+      font-family: 'Kaushan Script';
+      color: #333333;
+      line-height: 1.2; }
+    .what-we-do .title-block .title {
+      font-size: 30px;
+      font-family: "Montserrat";
+      color: #333333;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin: 14px 0 35px; }
+    .what-we-do .title-block .red-line {
+      width: 60px;
+      height: 3px;
+      background: #f38181;
+      float: none;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 40px; }
+    .what-we-do .title-block .title-desc {
+      font-size: 15px;
+      font-family: "Roboto";
+      color: #999999;
+      text-align: center;
+      line-height: 1.6;
+      max-width: 958px;
+      float: none;
+      margin: 0 auto 88px; }
+  .what-we-do .accordions-block .card {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #999999;
+    font-style: italic;
+    line-height: 1.6; }
+    .what-we-do .accordions-block .card .card-header {
+      padding: 14px 15px;
+      background: none;
+      border: none; }
+      .what-we-do .accordions-block .card .card-header .btn-link {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #333333;
+        text-transform: uppercase;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        border: 0; }
+        .what-we-do .accordions-block .card .card-header .btn-link img {
+          margin-right: 15px; }
+        .what-we-do .accordions-block .card .card-header .btn-link .arrow {
+          float: right;
+          margin-right: 3px;
+          margin-top: 8px; }
+      .what-we-do .accordions-block .card .card-header .btn-link.collapsed .arrow {
+        transform: rotate(180deg); }
+      .what-we-do .accordions-block .card .card-header .btn-link:active, .what-we-do .accordions-block .card .card-header .btn-link:focus {
+        text-decoration: none; }
+      .what-we-do .accordions-block .card .card-header .btn-link:hover {
+        text-decoration: none; }
+    .what-we-do .accordions-block .card .collapse {
+      margin: 20px 24px 20px 19px;
+      max-height: 135px;
+      overflow-y: scroll; }
+      .what-we-do .accordions-block .card .collapse .card-body {
+        padding: 0 20px 0 0; }
+  .what-we-do .accordions-block .card.opened .card-header {
+    border-bottom: 1px solid #e5e5e5; }
+  .what-we-do .accordions-block .card:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 1px solid #e5e5e5; }
+  .what-we-do .accordions-block .card:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+    border-bottom: 1px solid #e5e5e5; }
